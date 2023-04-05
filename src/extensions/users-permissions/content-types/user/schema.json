@@ -67,10 +67,10 @@
       "configurable": false
     },
     "cart": {
-      "type": "component",
-      "repeatable": true,
-      "component": "component.product",
-      "required": false
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cart.cart",
+      "inversedBy": "user"
     }
   }
 }
