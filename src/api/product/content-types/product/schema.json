@@ -8,7 +8,8 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false,
+    "track": true
   },
   "pluginOptions": {},
   "attributes": {
@@ -28,9 +29,6 @@
       "allowedTypes": [
         "images"
       ]
-    },
-    "productId": {
-      "type": "integer"
     }
   }
 }
